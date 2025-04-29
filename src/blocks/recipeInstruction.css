@@ -27,6 +27,7 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   width: 450px;
   padding: 30px;
+  margin: 40px;
   box-sizing: border-box;
   overflow-y: auto;
 }
@@ -36,15 +37,34 @@
   box-shadow: 0px 2px 4px;
 }
 .recipe-instruction__close {
+  position: fixed;
+  width: 20px;
+  cursor: pointer;
+  margin-top: -55px;
   margin-left: 400px;
 }
 .recipe-ingredients {
   position: relative;
 }
 .overlay {
-  position: fixed;
+  position: absolute;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: -2;
+}
+@media (max-width: 720px) {
+  .recipe-instruction {
+    width: 300px;
+  }
+  .recipe-instruction__image {
+    width: 250px;
+  }
+  .recipe-instruction__close {
+    position: fixed;
+    width: 20px;
+    cursor: pointer;
+    margin-top: -55px;
+    margin-left: 250px;
+  }
 }

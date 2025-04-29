@@ -13,8 +13,9 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   max-width: 350px;
+  position: relative;
 }
-.recipe__button-close {
+/* .recipe__button-close {
   width: 39px;
   height: 39px;
   align-self: flex-end;
@@ -22,7 +23,7 @@
   position: absolute;
   top: -40px;
   right: -45px;
-}
+} */
 
 .recipe-card:hover {
   transform: scale(1.03);
