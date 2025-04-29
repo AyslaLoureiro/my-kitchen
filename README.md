@@ -16,6 +16,10 @@
 - [TheMealDB API](https://www.themealdb.com/api.php)
 - CSS Modules ou CSS tradicional (dependendo de como organizou seu estilo)
 
+## 🌐 Acesse o Projeto
+
+🔗 [Clique aqui para acessar o projeto](https://my-kitchen-blond.vercel.app/)
+
 ## 🧪 Como rodar localmente
 
 1. Clone o repositório:
