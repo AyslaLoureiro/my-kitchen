@@ -1,0 +1,51 @@
+.sign__redirect-link {
+  color: #fff;
+  background-color: #0f0202;
+  border-radius: 5px;
+}
+.sign__input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #491616;
+  font-size: 14px;
+  padding: 0 8px;
+}
+
+.sign__button {
+  width: 358px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: #0f0202;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.sign__button:hover {
+  background-color: #9ab3c4;
+  cursor: pointer;
+}
+
+.sign__button-disabled {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.sign__button-disabled:hover {
+  background-color: unset;
+  cursor: not-allowed;
+}
+@media (max-width: 1024px) {
+  .sign__button {
+    width: 100%;
+    max-width: 358px;
+    height: 46px;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 720px) {
+  .sign__button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,50 @@
+.recipe-card__instructions {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  visibility: hidden;
+  transition: visibility 0.1s, opacity 0.5s linear;
+  font-family: "Inter";
+}
+
+.recipe-card__instructions.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.recipe-instruction {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  padding: 30px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.recipe-instruction__image {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px;
+}
+.recipe-instruction__close {
+  margin-left: 400px;
+}
+.recipe-ingredients {
+  position: relative;
+}
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -2;
+}
