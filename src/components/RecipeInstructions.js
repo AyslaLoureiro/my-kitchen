@@ -5,13 +5,13 @@ function RecipeInstruction({ recipe, onClose }) {
   return (
     <div className={`recipe-card__instructions ${recipe ? "visible" : ""}`}>
       <div className="overlay"></div>
-      <img
-        src={ClosePopupIcon}
-        alt="close icon"
-        className="recipe-instruction__close"
-        onClick={onClose}
-      />
       <div className="recipe-instruction">
+        <img
+          src={ClosePopupIcon}
+          alt="close icon"
+          className="recipe-instruction__close"
+          onClick={onClose}
+        />
         <img
           src={recipe.strMealThumb}
           alt={recipe.strMeal}
