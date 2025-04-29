@@ -12,7 +12,7 @@
   border-bottom-color: #888;
   border-radius: 50%;
   position: absolute;
-  top: 580px;
+  top: 650px;
   left: 0;
   right: 0px;
   bottom: 0;
@@ -24,6 +24,11 @@
 @keyframes spin {
   100% {
     transform: rotate(360deg);
+  }
+}
+@media (max-width: 1024px) {
+  .circle-preloader {
+    top: 615px;
   }
 }
 @media (max-width: 720px) {
