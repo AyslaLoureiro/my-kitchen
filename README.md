@@ -1,6 +1,6 @@
 # 🍽️ My Kitchen
 
-**My Kitchen** é uma aplicação web desenvolvida com **React** que permite aos usuários buscar receitas de pratos usando a [TheMealDB API](https://www.themealdb.com/). Basta digitar o nome de um prato ou ingrediente para descobrir receitas completas, com modo de preparo, imagem e lista de ingredientes.
+**My Kitchen** é uma aplicação web desenvolvida com **React** que permite aos usuários buscar receitas de pratos. Basta digitar o nome de um prato ou ingrediente para descobrir receitas completas, com modo de preparo, imagem e lista de ingredientes.
 
 ## 🚀 Funcionalidades
 
@@ -12,9 +12,9 @@
 
 ## 🛠️ Tecnologias utilizadas
 
-- [React](https://reactjs.org/)
-- [TheMealDB API](https://www.themealdb.com/api.php)
-- CSS Modules ou CSS tradicional (dependendo de como organizou seu estilo)
+- ** React **
+- ** API TheMealDB **
+- ** CSS tradicional **
 
 ## 🌐 Acesse o Projeto
 
